@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #abc;
+  height: 100vh;
+  font-size: 15px;
+}
+
+#container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex: initial;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  background: #bad;
+}
+
+header a {
+  color: black;
+}
+
+header a:hover {
+  color: red;
+}
+
+.sns {
+  position: relative;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.members a {
+  margin-right: 10px;
+}
+
+.logo {
+  height: 150px;
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  display: flex;
+  justify-content: center;
+  background: thistle;
+}
+
+.logo_png {
+  position: relative;
+  height: 100%;
+}
+
+.menuBar {
+  background: #dad;
+  position: absolute;
+  top: 220px;
+  width: 100%;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  line-height: 40px;
+}
+
+.menuBar li {
+  list-style: none;
+  width: 100%;
+}
+
+.menuBar a {
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+.menu {
+  width: 100%;
+  display: flex;
+}
+
+ul.menu > li {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+ul.menu > li #sub {
+  display: none;
+  position: absolute;
+  background: #ace;
+  width: 100%;
+}
+
+ul.menu > li #sub > li {
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul.menu > li:hover {
+  background: #bac;
+}
+
+ul.menu > li:hover > a {
+  color: white;
+}
+
+ul.menu > li:hover #sub {
+  display: block;
+}
+
+ul.menu > li #sub > li:hover {
+  background: #c8b;
+}
+
+li a {
+  display: block;
+}
