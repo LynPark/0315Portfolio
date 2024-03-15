@@ -138,15 +138,67 @@ li a {
   display: block;
 }
 
+.bonmoon {
+  position: absolute;
+  top: 265px;
+  display: flex;
+  justify-content: center;
+}
+
 .intro {
   width: 100%;
   height: auto;
+  padding: 5px 10px;
+}
+
+.intro-text {
   position: absolute;
-  top: 270px;
-  display: flex;
-  box-sizing: border-box;
+  top: 5%;
+  text-align: right;
+  right: 30px;
+  font-size: 16px;
 }
 
 .photo {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  height: auto;
+  z-index: 500;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.FIT-title > h2 {
+  line-height: 40px;
+}
+
+.countries {
+  background-color: #ace;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+table {
+  position: absolute;
+  margin: 10px;
+  width: 100%;
+}
+td {
+  width: 33%;
+}
+
+td > img {
+  height: 100%;
+  width: 100%;
+}
+
+tr.c-name {
+  font-size: 0.9em;
+  word-break: keep-all;
   width: 100%;
 }
