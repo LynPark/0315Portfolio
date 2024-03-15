@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex: initial;
+  flex-wrap: nowrap;
 }
 
 header {
@@ -54,7 +55,7 @@ header a:hover {
 }
 
 .logo {
-  height: 150px;
+  height: 120px;
   width: 100%;
   position: absolute;
   top: 60px;
@@ -71,7 +72,7 @@ header a:hover {
 .menuBar {
   background: #dad;
   position: absolute;
-  top: 220px;
+  top: 190px;
   width: 100%;
   white-space: nowrap;
   display: flex;
@@ -140,37 +141,42 @@ li a {
 
 .bonmoon {
   position: absolute;
-  top: 265px;
+  top: 240px;
   display: flex;
   justify-content: center;
 }
 
 .intro {
   width: 100%;
-  height: auto;
   padding: 5px 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: flex-end;
+  border-bottom: 5px solid #eee;
 }
 
 .intro-text {
   position: absolute;
-  top: 5%;
-  text-align: right;
-  right: 30px;
+  margin-bottom: 10px;
+  text-align: left;
+  right: 0;
+  bottom: 0;
   font-size: 16px;
+  width: 34%;
 }
 
 .photo {
-  width: 100%;
+  width: 65%;
 }
 
 .content {
   position: absolute;
-  top: 100%;
+  top: 96%;
   width: 100%;
-  height: auto;
-  z-index: 500;
-  margin: 10px 0;
+  margin: 25px 0;
   text-align: center;
+  justify-content: center;
+  background-color: #ace;
 }
 
 .FIT-title > h2 {
@@ -178,10 +184,9 @@ li a {
 }
 
 .countries {
-  background-color: #ace;
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 95%;
 }
 table {
   position: absolute;
